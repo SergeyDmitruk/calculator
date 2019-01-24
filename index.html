@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="body">
+
+    <div class="tools">
+        <div class="tools__item">
+            <label class="tools__label" for="color-bg">value for Background</label>
+            <input type="color" id="color-bg" class="tools__input" value="#ffffff"/>
+        </div>
+        <div class="tools__item">
+            <label class="tools__label" for="color-btn">value for Button</label>
+            <input type="color" id="color-btn" class="tools__input" value="#ffa500"/>
+        </div>
+        <div class="tools__item">
+            <label class="tools__label" for="color-text">value for Text-color</label>
+            <input type="color" id="color-black" class="tools__input" value="#000000"/>
+        </div>
+    </div>
+
+    <div class="calc">
+        <div class="calc__input">0</div>
+        <div class="calc__result"></div>
+        <div class="calc__tables">
+            <div class="calc__btns ">
+                <div class="calc__btn calc__btn--operator" data-operator="+">+</div>
+                <div class="calc__btn calc__btn--operator" data-operator="-">―</div>
+                <div class="calc__btn calc__btn--operator" data-operator="/">÷</div>
+                <div class="calc__btn calc__btn--operator" data-operator="*">⨯</div>
+                <div class="calc__btn calc__btn--number">1</div>
+                <div class="calc__btn calc__btn--number">2</div>
+                <div class="calc__btn calc__btn--number">3</div>
+                <div class="calc__btn calc__btn--number">4</div>
+                <div class="calc__btn calc__btn--number">5</div>
+                <div class="calc__btn calc__btn--number">6</div>
+                <div class="calc__btn calc__btn--number">7</div>
+                <div class="calc__btn calc__btn--number">8</div>
+                <div class="calc__btn calc__btn--number">9</div>
+                <div class="calc__btn calc__btn--number">0</div>
+                <div class="calc__btn calc__btn--summ">=</div>
+                <div class="calc__btn calc__btn--clear">AC</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="calc.js"></script>
+<script type="text/javascript" src="color-picker.js"></script>
+</html>
